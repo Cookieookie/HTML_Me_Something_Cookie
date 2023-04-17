@@ -15,9 +15,11 @@
     opacity: 60%;
     background-repeat: no-repeat;
     background-size: 100%;
-    max-width: auto;
     background-position: left center;
     border-bottom: 5px solid black;
+    width: auto;
+    height: auto;
+    object-fit: cover;
 }
 
 #headingDes {
@@ -31,14 +33,16 @@
 }
 
 
-.hiking-spot {
+.hikingSpot {
     color: black;
-    font-family: Andale Mono, monospace;
+    font-family: Roboto Slab;
+    text-decoration: underline;
+    text-decoration-color: red;
     margin-left: 100px;
     margin-right: 100px;
 }
 
-.hiking-des {
+.hikingDes {
     color: rgb(51, 49, 49);
     font-family: Andale Mono, monospace;
     margin-left: 100px;
@@ -47,9 +51,10 @@
 
 .hikingImgs {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    object-fit: cover;
 }
 .hikingP {
     color: rgba(51, 53, 60, 0.866);
@@ -57,6 +62,7 @@
     margin-left: 100px;
     margin-right: 100px;
     display: block;
+    padding-bottom: 100px;
 }
 
 #testP {
@@ -72,4 +78,12 @@
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 100px;
     margin-right: 100px;
+}
+
+#copyright {
+    text-align: left;
+}
+
+#links {
+    text-align: right;
 }
